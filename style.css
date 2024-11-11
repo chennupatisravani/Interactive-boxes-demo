@@ -1,0 +1,172 @@
+
+ * {
+    box-sizing: border-box; 
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+  }
+
+.bundle-container {
+    padding: 15px;
+    background-color: white;
+    
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+input[type="radio"] {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.bundle-box:hover {
+    border-color: #28a745;
+}
+
+.price {
+      margin: 0;
+      color: #333;
+      font-size: 0.9em;
+  }
+
+.discount {
+    color: green;
+    color: black;
+    font-weight: bold;
+    font-size: 0.9em;  
+}
+
+.popular {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.size-color-selection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 7px;
+    padding-left: 2px;
+}
+
+.size-color-selection div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.total-info {
+    color: green;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+.add-to-cart {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+.option-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 280px; /* Adjust the width as needed */
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .radio-button {
+    margin-right: 10px;
+    display: flex;
+    padding-left: 20px;
+    border: 1px solid #e0e0e0; 
+    cursor: pointer;
+    background-color: green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;   
+  }
+
+  .content {
+    flex-grow: 1;
+  }
+
+  .description {
+    font-weight: bold;
+    margin: 0;
+  }
+
+
+  .price-section {
+    display: flex;
+     align-items: center; 
+    justify-content: space-between; 
+    margin-top: 8px;
+    color: green;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .price-strike {
+    text-decoration: line-through;
+    color: #888;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    color: grey;
+    font-weight: bold;
+    font-size: 0.5em;
+    margin-right: 5px;
+    
+  }
+
+  .most-popular {
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 55px;
+    color: green;
+    font-weight: bold;
+    font-size: 0.5em;
+    margin-right: 10px;
+  }
+
